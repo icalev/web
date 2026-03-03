@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    
+}
+
+p {
+    color: blue;
+    padding: 25px;
+    font-size: 12px;
+
+}
+
+h1 {
+    color: brown;
+    padding: 10px;
+}
+
+dl {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+a {
+    color: red;
+}
