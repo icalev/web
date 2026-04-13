@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fotos/cinema.png);
+    background-size: 150px;
+    height: 100%;
+}
+main{
+    flex: 1;
+}
+
+/* HEADER (FLEX) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    padding: 20px;
+    color: white;
+}
+
+header nav a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* GRID PRINCIPAL */
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* CARD PRINCIPAL (FLEX) */
+.principal {
+    display: flex;
+    gap: 15px;
+    grid-column: span 2;
+}
+
+.principal img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* IMAGEM DIREITA */
+.imagem-direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-direita img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #f4b942;
+    padding: 10px;
+    margin-top: 20px;
+}
