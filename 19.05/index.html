@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Lista de Tarefas</title>
+
+    <link rel="stylesheet"
+    href="css/style.css">
+
+    <link href=
+"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="p-3 bg-primary text-white">
+
+    <h1 class="text-center">
+        LISTA
+    </h1>
+
+</header>
+
+<nav class="p-3 bg-primary-subtle">
+
+<form id="formTarefa">
+
+<input
+type="text"
+id="nome"
+placeholder="Digite uma tarefa"
+required
+>
+
+<select id="prioridade">
+
+<option>
+Alta
+</option>
+
+<option>
+Média
+</option>
+
+<option>
+Baixa
+</option>
+
+</select>
+
+<button type="submit">
+
+OK
+
+</button>
+
+</form>
+
+</nav>
+
+<div
+class="m-3 d-flex flex-wrap gap-3"
+id="tc">
+
+</div>
+
+<script src="scripts/script.js">
+
+</script>
+
+</body>
+
+</html>
